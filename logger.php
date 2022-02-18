@@ -12,7 +12,7 @@ array_push($_SESSION['journal'] , $PageLoad);
 if(isset($_POST['enableLog'])) {
     $lName = 'logger';
     $val = 1;
-    $host = 'localhost';
+    $host = 'lo.local';
     $time = 3600;
     $expTime = time()+$time;
     setcookie( $lName, $val, $expTime, "/", $host, false, false );
@@ -22,7 +22,7 @@ if(isset($_POST['enableLog'])) {
 if(isset($_POST['disableLog'])) {
     $lName = 'logger';
     $val = 1;
-    $host = 'localhost';
+    $host = 'lo.local';
     $time = 3600;
     $expTime = time()-$time;
     setcookie( $lName, $val, $expTime, "/", $host, false, false );
