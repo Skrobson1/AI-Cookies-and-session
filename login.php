@@ -23,7 +23,7 @@ if( $setBtn )
 		//logger
 		//$lName = 'logger';
 		//$val = 1;
-		$host = 'localhost';
+		$host = 'lo.local';
 		$time = 3600;
 		//$expTime = time()+$time;
 		//setcookie( $lName, $val, $expTime, "/", $host, false, false );
