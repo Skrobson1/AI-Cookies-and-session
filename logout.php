@@ -10,7 +10,7 @@ array_push($_SESSION['journal'], $PageLoad);
 array_push($_SESSION['journal'], $logOut);
 $Name = 'logger';
 $val = 1;
-$host = 'localhost';
+$host = 'lo.local';
 $time = 3600;
 $expTime = time()-$time;
 $Name = 'usrId';
